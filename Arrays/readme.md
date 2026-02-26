@@ -34,30 +34,30 @@ int arr[2][3] = {{1,2,3},{4,5,6}};<br>
 🔸 Deletion - Removing an element and shifting remaining elements.<br>
 🔸 Searching - Finding an element using:<br>
 - Linear Search
-- Binary Search (sorted array)
-🔸 Updating - Changing the value at a given index.
-🔸 Sorting - Arranging elements in ascending or descending order.
+- Binary Search (sorted array)<br>
+🔸 Updating - Changing the value at a given index.<br>
+🔸 Sorting - Arranging elements in ascending or descending order.<br>
 
 ## 🔹 5. Time Complexity (Basic)
-Operation	Time Complexity
-Access	O(1)
-Search	O(n)
-Insert	O(n)
-Delete	O(n)
+Operation	Time Complexity<br>
+- Access	O(1)
+- Search	O(n)
+- Insert	O(n)
+- Delete	O(n)
 
 ## 🔹 6. Advantages of Array:
-✔ Fast access using index
-✔ Easy to use and understand
-✔ Efficient memory usage
-✔ Good for storing fixed-size data
-✔ Supports many algorithms (sorting, searching)
+✔ Fast access using index<br>
+✔ Easy to use and understand<br>
+✔ Efficient memory usage<br>
+✔ Good for storing fixed-size data<br>
+✔ Supports many algorithms (sorting, searching)<br>
 
 ## 🔹 7. Disadvantages of Array:
-❌ Fixed size (cannot grow easily)
-❌ Insertion and deletion are slow
-❌ Memory wastage possible
-❌ Only same type of data allowed
-❌ Not flexible
+❌ Fixed size (cannot grow easily)<br>
+❌ Insertion and deletion are slow<br>
+❌ Memory wastage possible<br>
+❌ Only same type of data allowed<br>
+❌ Not flexible<br>
 
 ## 🔹 8. Applications of Array
 - Store marks of students
