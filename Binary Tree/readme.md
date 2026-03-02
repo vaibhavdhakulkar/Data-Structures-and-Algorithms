@@ -59,6 +59,7 @@ TermMeaningRootThe topmost node (no parent)LeafA node with no childrenParentA no
 5. Balanced Binary Tree
 - The height of left and right subtrees of every node differs by at most 1. (e.g., AVL Tree)
 <br>
+
 6. Binary Search Tree (BST)
 - Left child < Parent < Right child
 - Enables efficient searching
@@ -67,10 +68,13 @@ TermMeaningRootThe topmost node (no parent)LeafA node with no childrenParentA no
 Binary Tree Traversals<br>
 1. Inorder (Left → Root → Right)
 - Result for example above: 3, 5, 7, 10, 15, 20, 25<br>
+
 2. Preorder (Root → Left → Right)
 - Result: 10, 5, 3, 7, 20, 15, 25<br>
+
 3. Postorder (Left → Right → Root)
 - Result: 3, 7, 5, 15, 25, 20, 10<br>
+
 4. Level Order (BFS – level by level)
 - Result: 10, 5, 20, 3, 7, 15, 25<br>
 
