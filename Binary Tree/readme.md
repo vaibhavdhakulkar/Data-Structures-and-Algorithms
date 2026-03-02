@@ -59,7 +59,6 @@ TermMeaningRootThe topmost node (no parent)LeafA node with no childrenParentA no
 5. Balanced Binary Tree
 - The height of left and right subtrees of every node differs by at most 1. (e.g., AVL Tree)
 <br>
-  
 6. Binary Search Tree (BST)
 - Left child < Parent < Right child
 - Enables efficient searching
