@@ -21,27 +21,23 @@ Dynamic Programming problems have two main properties:
 
 ### 3.1 Overlapping Subproblems
 - The same subproblems appear many times during recursion.
-<br>
+
 Example: Fibonacci series<br>
 To compute fib(5):
 <br>
 fib(5) = fib(4) + fib(3)<br>
 fib(4) = fib(3) + fib(2)<br>
 fib(3) = fib(2) + fib(1)<br>
-
 Here, fib(3) and fib(2) are calculated multiple times → overlapping subproblems.
 
 ### 3.2 Optimal Substructure
 A problem has optimal substructure if:
-The optimal solution of the main problem can be obtained from optimal solutions of its subproblems.<br>
-
+- The optimal solution of the main problem can be obtained from optimal solutions of its subproblems.<br>
 Example:<br>
 Shortest path problem → shortest path to a node depends on shortest path to previous nodes.
 
 4. Techniques in Dynamic Programming
-
-There are two main techniques:<br>
-
+- There are two main techniques:<br>
 ### 4.1 Memoization (Top-Down Approach)
 Memoization is a recursive approach where:
 - We solve the problem using recursion.
