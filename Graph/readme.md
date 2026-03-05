@@ -1,27 +1,27 @@
 # GRAPH (Data Structure)
 ## 1. Introduction
 - A Graph is a non-linear data structure used to represent relationships between different objects.
-<br>
+
 Unlike arrays, stacks, or queues (which are linear), graphs can represent complex connections such as:
 - Social networks
 - Road maps
 - Computer networks
 - Web pages with links
 - Airline routes
-<br>
+
 Graphs focus on:
 - Nodes (vertices) and the connections (edges) between them.
 
 ## 2. Definition of Graph
 A Graph is defined as:
 - A collection of vertices (nodes) and edges (connections) that link pairs of vertices.
-<br>
+
 Mathematically:
 G = (V, E)
 <br>
 Where:<br>
 V = set of vertices (nodes)<br>
-E = set of edges (connections)<br>
+E = set of edges (connections)
 
 ## 3. Components of a Graph
 ### 3.1 Vertex (Node)
@@ -44,7 +44,7 @@ Examples:
 ## 4. Types of Graphs
 ### 4.1 Undirected Graph
 - Edges have no direction.
-<br>
+
 Example:<br>
 A —— B<br>
 Means A is connected to B and B is connected to A.
@@ -68,7 +68,7 @@ Weight = 5 km or cost = 5 units.<br>
 
 ### 4.5 Cyclic Graph
 - Graph contains a cycle.
-<br>
+
 Example:<br>
 A → B → C → A<br>
 
@@ -218,11 +218,12 @@ Graphs are used in:
 - Time-consuming for large graphs
 
 ## 13. Comparison: BFS vs DFS
-Feature	        BFS	              DFS
-Data Structure	Queue	            Stack/Recursion
-Path	          Shortest path	    Not guaranteed
-Memory	        High	            Low
-Use	            Level traversal	  Deep traversal
+| Feature        | BFS             | DFS               |<br>
+|----------------|-----------------|-------------------|<br>
+| Data Structure | Queue           | Stack / Recursion |<br>
+| Path           | Shortest path   | Not guaranteed    |<br>
+| Memory         | High            | Low               |<br>
+| Use            | Level traversal | Deep traversal    |<br>
 
 ## 14. Time Complexity
 For adjacency list:
