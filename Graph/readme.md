@@ -91,11 +91,12 @@ A 2D array where:
 - Value = 1 if edge exists, else 0
 
 Example:<br>
+'''
 	A	B	C<br>
 A	0	1	1<br>
 B	1	0	0<br>
 C	1	0	0<br>
-
+'''
 Advantages:
 - Easy to check edge
 
@@ -134,10 +135,11 @@ Traversal means:
 
 ### 7.3 Example
 Graph:<br>
+'''
 A — B — D<br>
 |     |<br>
 C     E<br>
-
+'''
 BFS from A:<br>
 A → B → C → D → E<br>
 
@@ -161,10 +163,11 @@ Stack or recursion<br>
 
 ### 8.3 Example
 Graph:<br>
+'''
 A — B — D<br>
 |     |<br>
 C     E<br>
-
+'''
 DFS from A:<br>
 A → B → D → E → C<br>
 
@@ -185,10 +188,11 @@ Algorithms:
 
 Example (BFS shortest path)<br>
 Graph:<br>
+'''
 A — B — C<br>
 |         |<br>
 D ———— E<br>
-
+'''
 Shortest path from A to C:
 A → B → C
 
@@ -218,13 +222,14 @@ Graphs are used in:
 - Time-consuming for large graphs
 
 ## 13. Comparison: BFS vs DFS
+'''
 | Feature        | BFS             | DFS               |<br>
 |----------------|-----------------|-------------------|<br>
 | Data Structure | Queue           | Stack / Recursion |<br>
 | Path           | Shortest path   | Not guaranteed    |<br>
 | Memory         | High            | Low               |<br>
 | Use            | Level traversal | Deep traversal    |<br>
-
+'''
 ## 14. Time Complexity
 For adjacency list:
 BFS = O(V + E)<br>
@@ -236,10 +241,11 @@ Where:
 
 ## 15. Example Problem
 Graph:
+'''
 1 — 2 — 3
 |         |
 4 ———— 5
-
+'''
 BFS from 1:
 1, 2, 4, 3, 5
 
