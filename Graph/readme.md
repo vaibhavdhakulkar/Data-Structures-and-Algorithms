@@ -227,7 +227,7 @@ Graphs are used in:
 
 ## 14. Time Complexity
 For adjacency list:
-BFS = O(V + E)
+BFS = O(V + E)<br>
 DFS = O(V + E)
 
 Where:
