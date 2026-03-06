@@ -16,7 +16,7 @@ No Backtracking:
 - Unlike dynamic programming, the algorithm does not revisit previous decisions.
 
 ## Steps to Solve a Greedy Problem
-= Understand the problem clearly.
+- Understand the problem clearly.
 - Identify the criterion for the “best choice” at each step.
 - Apply the greedy choice iteratively or recursively.
 <br>
@@ -60,6 +60,5 @@ Works well for problems with:
 - Optimal substructure
 <br>
 Common examples: Coin change, Activity selection, Fractional Knapsack, MST, Huffman Coding
-
 ## One-line Definition:
 “A Greedy Algorithm is an approach where the solution is built step by step, selecting the locally optimal choice at each step, with the hope of reaching a globally optimal solution.”
