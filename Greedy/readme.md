@@ -58,7 +58,8 @@ Greedy algorithm = Best choice at each step → Global optimum
 Works well for problems with:
 - Greedy-choice property
 - Optimal substructure
-<br>
+
 Common examples: Coin change, Activity selection, Fractional Knapsack, MST, Huffman Coding
+
 ## One-line Definition:
-“A Greedy Algorithm is an approach where the solution is built step by step, selecting the locally optimal choice at each step, with the hope of reaching a globally optimal solution.”
+A Greedy Algorithm is an approach where the solution is built step by step, selecting the locally optimal choice at each step, with the hope of reaching a globally optimal solution.
