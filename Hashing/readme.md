@@ -85,37 +85,37 @@ for num in numbers:<br>
         freq[num] = 1<br>
 print(freq)<br>
 
-Output: 
+Output: <br>
 {1:1, 2:2, 3:1, 4:3}
 
-Explanation:
-Dictionary stores numbers as keys
-Frequency as values
-Lookup happens very fast.
+Explanation:<br>
+Dictionary stores numbers as keys<br>
+Frequency as values<br>
+Lookup happens very fast.<br>
 
 ## Hash Set Example:
 A Hash Set stores unique elements only.
 
-Syntax
-my_set = set()
+Syntax:<br>
+my_set = set()<br>
 
-Example
-nums = [1,2,2,3,4,4]
-unique = set(nums)
-print(unique)
+Example:<br>
+nums = [1,2,2,3,4,4]<br>
+unique = set(nums)<br>
+print(unique)<br>
 
-Output
+Output:<br>
 {1,2,3,4}
 
-Explanation:
+Explanation:<br>
 Set automatically removes duplicate elements.
 
 ## Real Life Examples of Hashing
-Hashing is widely used in:
-1️⃣ Databases: Fast data retrieval.
-2️⃣ Password Storage: Passwords are stored using hash functions for security.
-3️⃣ Caching Systems: Used in applications like web browsers.
-4️⃣ Data Deduplication: Finding duplicate files.
+Hashing is widely used in:<br>
+1️⃣ Databases: Fast data retrieval.<br>
+2️⃣ Password Storage: Passwords are stored using hash functions for security.<br>
+3️⃣ Caching Systems: Used in applications like web browsers.<br>
+4️⃣ Data Deduplication: Finding duplicate files.<br>
 
 ## Common Problems Using Hashing
 Examples of interview questions:
@@ -127,19 +127,18 @@ Examples of interview questions:
 - First non-repeating character
 
 ## Simple Visualization
-
-Example list:
-["apple","banana","mango"]
+Example list:<br>
+["apple","banana","mango"]<br>
 
 Hash function converts to index:
-hash("apple") → 2
-hash("banana") → 5
-hash("mango") → 7
+hash("apple") → 2<br>
+hash("banana") → 5<br>
+hash("mango") → 7<br>
 
 Stored in hash table:
-index 2 → apple
-index 5 → banana
-index 7 → mango
+index 2 → apple<br>
+index 5 → banana<br>
+index 7 → mango<br>
 
 ## Summary
 - Concept	Meaning
