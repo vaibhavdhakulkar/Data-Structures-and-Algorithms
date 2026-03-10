@@ -23,7 +23,7 @@ Last node points to NULL, indicating the end of the list<br>
 The starting point of the linked list is called the Head.<br>
 
 ## Types of Linked Lists
-1. Singly Linked List<br>
+### 1. Singly Linked List<br>
 Each node contains:<br>
 Data<br>
 Pointer to the next node<br>
@@ -32,7 +32,7 @@ Example:<br>
 Head → [10] → [20] → [30] → NULL<br>
 Traversal is only in one direction.<br>
 
-2. Doubly Linked List
+### 2. Doubly Linked List
 Each node contains:<br>
 Data<br>
 Pointer to the next node<br>
@@ -42,15 +42,16 @@ Example:<br>
 NULL ← [10] ⇄ [20] ⇄ [30] → NULL<br>
 Traversal is possible both forward and backward.<br>
 
-3. Circular Linked List: In this structure, the last node points back to the first node instead of NULL.<br>
+### 3. Circular Linked List: In this structure, the last node points back to the first node instead of NULL.<br>
 Example:<br>
 [10] → [20] → [30]<br>
   ↑             ↓<br>
   └─────────────┘<br>
 This forms a loop.<br>
 
-4. Basic Operations in Linked Lists<br>
-1. Traversal: Traversal means visiting each node in the linked list.<br>
+### 4. Basic Operations in Linked Lists<br>
+### 1. Traversal: Traversal means visiting each node in the linked list.<br>
+
 Algorithm<br>
 - Start from the head
 - Print or process the node data
@@ -64,10 +65,10 @@ def traverse(head):
         print(current.data)
         current = current.next
 
-2. Insertion
+### 2. Insertion
 Insertion can occur at different positions.
 
-1. Insertion at Beginning
+#### 1. Insertion at Beginning
 Steps:<br>
 Create a new node<br>
 Point new node’s next to current head<br>
@@ -88,7 +89,7 @@ def insert_at_beginning(head, data):
     head = new_node
     return head
     
-## Insertion at End
+#### 2. Insertion at End
 Steps:<br>
 Traverse to last node<br>
 Create new node<br>
@@ -102,7 +103,7 @@ Insert 40<br>
 After:<br>
 10 → 20 → 30 → 40<br>
 
-## Insertion at Specific Position
+#### 3. Insertion at Specific Position
 Steps:<br>
 Traverse to desired position<br>
 Update pointers<br>
@@ -114,7 +115,7 @@ Insert 25 after 20<br>
 ## Deletion
 Deletion removes a node from the linked list.
 
-1. Delete First Node
+#### 1. Delete First Node
 Steps:<br>
 Move head to next node<br>
 Remove old head<br>
@@ -133,7 +134,7 @@ def delete_first(head):
     head = head.next
     return head
 
-## Delete Last Node
+#### 2. Delete Last Node
 Steps:<br>
 Traverse until second-last node<br>
 Set its next to NULL<br>
