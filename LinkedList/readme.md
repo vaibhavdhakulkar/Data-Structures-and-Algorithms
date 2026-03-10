@@ -1,5 +1,5 @@
 # Linked List
-A Linked List is a linear data structure in which elements are stored in separate memory locations and connected using pointers (or references).
+A Linked List is a linear data structure in which elements are stored in separate memory locations and connected using pointers (or references).<br>
 
 Unlike arrays, linked lists do not store elements in contiguous memory locations. Instead, each element (called a node) contains:
 - Data – the actual value
@@ -7,54 +7,51 @@ Unlike arrays, linked lists do not store elements in contiguous memory locations
 Because of this structure, linked lists allow efficient insertion and deletion operations without shifting elements like arrays.
 
 ## Structure of a Linked List Node
-Each node typically contains two parts:
-Node
- ├── Data
- └── Next Pointer
+Each node typically contains two parts:<br>
+Node<br>
+ ├── Data<br>
+ └── Next Pointer<br>
+<br>
+Example:<br>
+[10 | next] → [20 | next] → [30 | next] → NULL<br>
 
-Example:
-[10 | next] → [20 | next] → [30 | next] → NULL
-
-Explanation:
-First node stores 10
-Second node stores 20
-Third node stores 30
-Last node points to NULL, indicating the end of the list
-The starting point of the linked list is called the Head.
+Explanation:<br>
+First node stores 10<br>
+Second node stores 20<br>
+Third node stores 30<br>
+Last node points to NULL, indicating the end of the list<br>
+The starting point of the linked list is called the Head.<br>
 
 ## Types of Linked Lists
-1. Singly Linked List
-Each node contains:
-Data
-Pointer to the next node
+1. Singly Linked List<br>
+Each node contains:<br>
+Data<br>
+Pointer to the next node<br>
 
-Example:
-Head → [10] → [20] → [30] → NULL
-Traversal is only in one direction.
+Example:<br>
+Head → [10] → [20] → [30] → NULL<br>
+Traversal is only in one direction.<br>
 
 2. Doubly Linked List
-Each node contains:
-Data
-Pointer to the next node
-Pointer to the previous node
+Each node contains:<br>
+Data<br>
+Pointer to the next node<br>
+Pointer to the previous node<br>
 
-Example:
-NULL ← [10] ⇄ [20] ⇄ [30] → NULL
-Traversal is possible both forward and backward.
+Example:<br>
+NULL ← [10] ⇄ [20] ⇄ [30] → NULL<br>
+Traversal is possible both forward and backward.<br>
 
-3. Circular Linked List: In this structure, the last node points back to the first node instead of NULL.
+3. Circular Linked List: In this structure, the last node points back to the first node instead of NULL.<br>
+Example:<br>
+[10] → [20] → [30]<br>
+  ↑             ↓<br>
+  └─────────────┘<br>
+This forms a loop.<br>
 
-Example:
-[10] → [20] → [30]
-  ↑             ↓
-  └─────────────┘
-
-This forms a loop.
-
-4. Basic Operations in Linked Lists
-1. Traversal: Traversal means visiting each node in the linked list.
-
-Algorithm
+4. Basic Operations in Linked Lists<br>
+1. Traversal: Traversal means visiting each node in the linked list.<br>
+Algorithm<br>
 - Start from the head
 - Print or process the node data
 - Move to the next node
@@ -71,18 +68,18 @@ def traverse(head):
 Insertion can occur at different positions.
 
 1. Insertion at Beginning
-Steps:
-Create a new node
-Point new node’s next to current head
-Move head to new node
+Steps:<br>
+Create a new node<br>
+Point new node’s next to current head<br>
+Move head to new node<br>
 
 Example:
-Before:
-10 → 20 → 30
-Insert 5
+Before:<br>
+10 → 20 → 30<br>
+Insert 5<br>
 
-After:
-5 → 10 → 20 → 30
+After:<br>
+5 → 10 → 20 → 30<br>
 
 Python Example
 def insert_at_beginning(head, data):
@@ -92,42 +89,42 @@ def insert_at_beginning(head, data):
     return head
     
 ## Insertion at End
-Steps:
-Traverse to last node
-Create new node
-Set last node next to new node
+Steps:<br>
+Traverse to last node<br>
+Create new node<br>
+Set last node next to new node<br>
 
-Example:
-Before:
-10 → 20 → 30
-Insert 40
+Example:<br>
+Before:<br>
+10 → 20 → 30<br>
+Insert 40<br>
 
-After:
-10 → 20 → 30 → 40
+After:<br>
+10 → 20 → 30 → 40<br>
 
 ## Insertion at Specific Position
-Steps:
-Traverse to desired position
-Update pointers
+Steps:<br>
+Traverse to desired position<br>
+Update pointers<br>
 
 Example:
-Insert 25 after 20
-10 → 20 → 25 → 30
+Insert 25 after 20<br>
+10 → 20 → 25 → 30<br>
 
 ## Deletion
 Deletion removes a node from the linked list.
 
 1. Delete First Node
-Steps:
-Move head to next node
-Remove old head
+Steps:<br>
+Move head to next node<br>
+Remove old head<br>
 
-Example:
-Before
-10 → 20 → 30
+Example:<br>
+Before<br>
+10 → 20 → 30<br>
 
-After deleting first node
-20 → 30
+After deleting first node<br>
+20 → 30<br>
 
 ## Python Example
 def delete_first(head):
@@ -137,30 +134,30 @@ def delete_first(head):
     return head
 
 ## Delete Last Node
-Steps:
-Traverse until second-last node
-Set its next to NULL
+Steps:<br>
+Traverse until second-last node<br>
+Set its next to NULL<br>
 
-Example:
-Before
-10 → 20 → 30
+Example:<br>
+Before<br>
+10 → 20 → 30<br>
 
-After
-10 → 20
+After<br>
+10 → 20<br>
 
 ## Reversal of Linked List
 Reversing means changing the direction of links.
 
-Example:
-Before
-10 → 20 → 30 → NULL
+Example:<br>
+Before<br>
+10 → 20 → 30 → NULL<br>
 
-After
-30 → 20 → 10 → NULL
-Python Implementation
-def reverse(head):
-    prev = None
-    current = head
+After<br>
+30 → 20 → 10 → NULL<br>
+Python Implementation<br>
+def reverse(head):<br>
+    prev = None<br>
+    current = head<br>
 
     while current:
         next_node = current.next
@@ -198,10 +195,10 @@ def reverse(head):
 - Undo functionality in software
 
 ## Example Implementation (Full)
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
+class Node:<br>
+    def __init__(self, data):<br>
+        self.data = data<br>
+        self.next = None<br>
 
 
 ## class LinkedList:
