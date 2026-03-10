@@ -42,8 +42,7 @@ Example:
 NULL ← [10] ⇄ [20] ⇄ [30] → NULL
 Traversal is possible both forward and backward.
 
-3. Circular Linked List
-In this structure, the last node points back to the first node instead of NULL.
+3. Circular Linked List: In this structure, the last node points back to the first node instead of NULL.
 
 Example:
 [10] → [20] → [30]
@@ -53,14 +52,13 @@ Example:
 This forms a loop.
 
 4. Basic Operations in Linked Lists
-1. Traversal
-Traversal means visiting each node in the linked list.
+1. Traversal: Traversal means visiting each node in the linked list.
 
 Algorithm
-Start from the head
-Print or process the node data
-Move to the next node
-Repeat until NULL is reached
+- Start from the head
+- Print or process the node data
+- Move to the next node
+- Repeat until NULL is reached
 
 Example Code (Python)
 def traverse(head):
@@ -120,7 +118,6 @@ Insert 25 after 20
 Deletion removes a node from the linked list.
 
 1. Delete First Node
-
 Steps:
 Move head to next node
 Remove old head
@@ -140,7 +137,6 @@ def delete_first(head):
     return head
 
 ## Delete Last Node
-
 Steps:
 Traverse until second-last node
 Set its next to NULL
@@ -171,36 +167,35 @@ def reverse(head):
         current.next = prev
         prev = current
         current = next_node
-
     return prev
     
 ## Time Complexity
-Operation	Time Complexity
-Traversal	O(n)
-Insertion at beginning	O(1)
-Insertion at end	O(n)
-Deletion	O(n)
-Searching	O(n)
+- Operation	Time Complexity
+- Traversal	O(n)
+- Insertion at beginning	O(1)
+- Insertion at end	O(n)
+- Deletion	O(n)
+- Searching	O(n)
 
 ## Advantages of Linked List
-Dynamic size (can grow or shrink)
-Efficient insertion and deletion
-No memory wastage due to shifting elements
-Useful for implementing other data structures
+- Dynamic size (can grow or shrink)
+- Efficient insertion and deletion
+- No memory wastage due to shifting elements
+- Useful for implementing other data structures
 
 ## Disadvantages
-Extra memory required for pointers
-No direct access like arrays
-Traversal is slower compared to arrays
+- Extra memory required for pointers
+- No direct access like arrays
+- Traversal is slower compared to arrays
 
 ## Applications of Linked Lists
-Linked lists are used in:
-Implementation of Stacks
-Implementation of Queues
-Hash Tables
-Graph adjacency lists
-Memory management
-Undo functionality in software
+- Linked lists are used in:
+- Implementation of Stacks
+- Implementation of Queues
+- Hash Tables
+- Graph adjacency lists
+- Memory management
+- Undo functionality in software
 
 ## Example Implementation (Full)
 class Node:
