@@ -1,4 +1,4 @@
-# 📘 Data Structures & Algorithms
+# 📘 Data Structures & Algorithms : 
 ## 📌 About This Repository
 This repository contains my daily practice solutions for Data Structures and Algorithms (DSA).
 Each problem is solved with a clear approach, well-structured code, and simple explanations to help understand the logic step by step.
