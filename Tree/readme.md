@@ -20,14 +20,14 @@ A Tree is a non-linear hierarchical data structure consisting of nodes connected
 ### 1. Binary Tree
 Each node has at most 2 children:<br>
 - Left child
-- Right child
+- Right child<br>
         10 <br>
        /  \ <br>
       5    20 <br>
       
 ### 2. Binary Search Tree (BST)
 A special binary tree where:
-- Left < Root < Right
+- Left < Root < Right<br>
         10 <br>
        /  \ <br>
       5    20 <br>
@@ -88,8 +88,7 @@ def insert(root, key):<br>
     return root<br>
     
 ### ❌ Delete in BST (Important Case Handling)
-
-Cases:
+Cases:<br>
 - Node is leaf → remove directly
 - Node has one child → replace with child
 - Node has two children → replace with inorder successor
